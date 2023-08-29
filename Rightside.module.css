@@ -1,0 +1,38 @@
+.section {
+    display: none;
+    padding-top: 25px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.active {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    
+}
+.buttons {
+    position: fixed;
+    margin-top: 35px;
+    padding-left:0%;
+    display: inline-flex;
+    position: relative;
+    justify-content: space-between;
+    bottom: 5;
+    width: 100%;
+    padding: 0px;
+    flex-direction: row;
+    padding-right: 3.5%;
+}
+.formheader {
+    text-align: left;
+    color: rgb(64, 65, 67);
+}
+.textfield {
+    margin-left: -20px;
+}
+.reviewclass {
+    height: 73vh;
+    overflow-y: scroll;
+    overflow-x: hidden ;
+}
