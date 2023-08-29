@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+
+
+.containerform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    overflow: hidden;
+    height: 95vh;
+}
+
+.cardform {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+    border-radius: 20px;
+}
+
+.formpage {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+}
